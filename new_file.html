@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div {
+				border: 1px solid red;
+				display: inline-block;
+				margin-left: -1px;
+				margin-top: -1px;
+				text-align: center;
+			}
+			#div {
+				border: 0;
+				text-align: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div"></div>
+		<script type="text/javascript">
+			var oDiv = document.getElementById('div');
+			var j = 10;
+			
+			for (var a=1;a<j;a++) {
+				for (b=1;b<=a;b++) {
+					oDiv.innerHTML += "<div style='width:80px;'>"+ b+"×"+a+"="+a*b+"</div>"
+				}
+				oDiv.innerHTML+="<br />"
+			}
+		</script>
+	</body>
+</html>
