@@ -1,0 +1,237 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;list-style: none;}
+/*伪类*/
+body {
+	background: url(../image/body.jpg) repeat-y;
+	background-size: 100% auto;
+
+}
+.news li:hover {
+	transform:scale(1.2);
+	-ms-transform:scale(1.2);	/* IE 9 */
+	-moz-transform:scale(1.2) ;	/* Firefox */
+	-webkit-transform:scale(1.2); /* Safari 和 Chrome */
+	-o-transform:scale(1.2);
+}
+.box-bar {
+	width: 1024px;
+	min-width: 900px;
+	margin:0 auto;
+}
+.box-bar:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.left {
+	width: 120px;
+	float: left;
+	background: green;
+	height: 1140px;
+}
+.top-header {
+	width: 904px;
+	height: 120px;
+	background: red;
+	float: left;
+}
+.image {
+	width: 600px;
+	height: 400px;
+	background: url(../image/di.jpg);
+	float: left;
+	margin: 40px  0 0 40px;
+	
+}
+.vide {
+	width: 224px;
+	background: pink;
+	float: left;
+	margin: 40px 0 0 40px;
+}
+.mp3 {
+	width: 100%;
+	height: 180px;
+	background: blue;
+	float: left;
+}
+.gogao {
+	background: blue;
+	width: 100%;
+	height: 180px;
+	float: left;
+	margin-top: 40px;
+}
+.carousel {
+	width: 3600px;
+	height: 400px;
+}
+.carousel img {
+	float: left;
+}
+.special {
+	height: 60px;
+	width: 864px;
+	float: left;
+	background: skyblue;
+	margin: 40px 0 0 40px;
+}
+/*.news:after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+.news {
+	width: 864px;
+	float: left;
+}
+.news li {
+	width: 392px;
+	height: 200px;
+	float: left;
+	background: cadetblue;
+	background: url(../image/zhanduibei.png) no-repeat;
+	margin-left: 40px;
+	background-size: 100% 100%;
+	margin-top: 40px;
+
+}
+.toux,.toux1,.toux3,.toux4,.toux5,.toux6,.toux7,.toux8
+,.toux9,.toux10,.toux11 {
+	width: 100px;
+	height: 140px;
+	background: url(../image/duizhan.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 30px 0 0 50px;
+	float:left;
+	border: 2px solid rgb(211,168,9);
+}
+.toux1 {
+	background: url(../image/xiapqi.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.toux2 {
+	background: url(../image/xiapqi.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.toux3 {
+	background: url(../image/9.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.toux4 {
+	background: url(../image/4.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.toux5 {
+	background: url(../image/5.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.toux6 {
+	background: url(../image/6.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.toux7 {
+	background: url(../image/7.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.toux8 {
+	background: url(../image/8.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.toux9 {
+	background: url(../image/9.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.footer {
+	width: 100%;
+	height: 160px;
+	margin-top: 40px;
+	font-size: 0;
+}
+.footer-box {
+	width: 25%;
+	height: 160px;	
+	display: inline-block;
+	background: url(../image/111.gif) no-repeat;
+	background-size: 100% 100%;
+	background-position: 0 0px;
+}
+.new-box {
+	margin-top: 33px;
+	margin-left: 10px;
+	float: left;
+}
+.tou-header {
+	font-size: 28px;
+	color: rgb(211,168,9);
+}
+.news li {
+
+}
+.new-box p{
+	font-size: 20px;
+	color: rgb(211,168,9);
+	line-height: 30px;
+}
+.share {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: url(../image/firstbody.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.top-box1 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	z-index: 120;
+	background: url(../image/box1.png) no-repeat;
+	background-size: 100% 100%;
+	width: 300px;
+	height: 200px;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%); 	/* IE 9 */
+	-moz-transform:translate(-50%,-50%); 	/* Firefox */
+	-webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
+	-o-transform:translate(-50%,-50%);
+}
+.top-box2 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	z-index: 120;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%); 	/* IE 9 */
+	-moz-transform:translate(-50%,-50%); 	/* Firefox */
+	-webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
+	-o-transform:translate(-50%,-50%);
+	background: url(../image/box2.png) no-repeat;
+	background-size: 100% 100%;
+	width: 300px;
+	height: 200px;
+}
+.top-text {
+	position: absolute;
+	top: 62.5%;
+	left: 50%;
+	z-index: 100;
+	background: orange;
+	border-radius: 10px;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%); 	/* IE 9 */
+	-moz-transform:translate(-50%,-50%); 	/* Firefox */
+	-webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
+	-o-transform:translate(-50%,-50%);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;	
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+
+}
